@@ -13,10 +13,10 @@ st.title('PROGETTO BUSINESS INTELLIGENCE')
 st.subheader('ANALISI DELLE CATTURE')
 
 # Caricamento dei dati
-dati_cattura_cicalino = pd.read_csv('dati_cattura_cicalino.csv', encoding='ISO-8859-1', sep=',')
+dati_cattura_cicalino = pd.read_csv('dati_cattura_cicalino (1).csv', encoding='ISO-8859-1', sep=',')
 dati_cattura_imola = pd.read_csv('dati_cattura_imola.csv', encoding='ISO-8859-1', sep=',')
-meteo_cicalino = pd.read_csv('meteo_cicalino.csv', encoding='ISO-8859-1', sep=';')
-meteo_imola = pd.read_csv('dmeteo_imola.csv', encoding='ISO-8859-1', sep=';')
+meteo_cicalino = pd.read_csv('meteo_cicalino (2).csv', encoding='ISO-8859-1', sep=';')
+meteo_imola = pd.read_csv('meteo_imola.csv', encoding='ISO-8859-1', sep=';')
 
 
 # Normalizzazione dei nomi delle colonne
