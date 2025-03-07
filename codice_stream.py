@@ -13,10 +13,11 @@ st.title('PROGETTO BUSINESS INTELLIGENCE')
 st.subheader('ANALISI DELLE CATTURE')
 
 # Caricamento dei dati
-dati_cattura_cicalino = pd.read_csv(r'C:\Users\ferdi\Desktop\dati power bi\dati_cattura_cicalino (1).csv', encoding='ISO-8859-1', sep=',')
-dati_cattura_imola = pd.read_csv(r'C:\Users\ferdi\Desktop\dati power bi\dati_cattura_imola.csv', encoding='ISO-8859-1', sep=',')
-meteo_cicalino = pd.read_csv(r'C:\Users\ferdi\Desktop\dati power bi\meteo_cicalino (2).csv', encoding='ISO-8859-1', sep=';')
-meteo_imola = pd.read_csv(r'C:\Users\ferdi\Desktop\dati power bi\meteo_imola.csv', encoding='ISO-8859-1', sep=';')
+dati_cattura_cicalino = pd.read_csv('datasets/dati_cattura_cicalino.csv', encoding='ISO-8859-1', sep=',')
+dati_cattura_imola = pd.read_csv('datasets/dati_cattura_imola.csv', encoding='ISO-8859-1', sep=',')
+meteo_cicalino = pd.read_csv('datasets/meteo_cicalino.csv', encoding='ISO-8859-1', sep=';')
+meteo_imola = pd.read_csv('datasets/meteo_imola.csv', encoding='ISO-8859-1', sep=';')
+
 
 # Normalizzazione dei nomi delle colonne
 if meteo_cicalino is not None:
