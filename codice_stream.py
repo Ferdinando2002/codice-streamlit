@@ -9,7 +9,7 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import mean_squared_error, r2_score
 from sklearn.model_selection import train_test_split
 
-st.title('PROGETTO BUSINESS INTELLIGENCE')
+st.title('HARDWARE AND SOFTWARE FOR BIG DATA')
 st.subheader('ANALISI DELLE CATTURE')
 
 # Caricamento dei dati
