@@ -454,7 +454,7 @@ if scelta_dataset:
                         results['Valori Predetti'] = y_pred
 
                     # Mostra i risultati
-                        st.dataframe(results)
+                        #st.dataframe(results)
 
                     # Grafico: visualizzazione dell'albero decisionale
                         fig, ax = plt.subplots(figsize=(16, 10))
